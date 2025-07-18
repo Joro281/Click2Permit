@@ -1,0 +1,8 @@
+:root {
+  --label-xs-default-font-family: "DMSans-Regular", Helvetica;
+  --label-xs-default-font-weight: 400;
+  --label-xs-default-font-size: 14px;
+  --label-xs-default-letter-spacing: 0.28px;
+  --label-xs-default-line-height: 24px;
+  --label-xs-default-font-style: normal;
+}

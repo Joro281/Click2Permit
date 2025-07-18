@@ -1,0 +1,368 @@
+body{
+  margin: 0;
+  background-color: #cbcbcb;
+  overflow-x: hidden;
+}
+.frame {
+  background-color: #cbcbcb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #cbcbcb;
+  width: 1600px;
+  height: 960px;
+  position: relative;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 1600px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.frame .icon-menu {
+  position: absolute;
+  width: 44px;
+  height: 32px;
+  top: 36px;
+  left: 1394px;
+}
+
+.frame .group {
+  position: absolute;
+  width: 306px;
+  height: 80px;
+  top: 12px;
+  left: 128px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  width: 296px;
+  height: 68px;
+  top: 6px;
+  left: 6px;
+}
+
+.frame .polygon {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 0;
+  left: 0;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 6px;
+  left: 30px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #0f3b74;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 233px;
+  height: 33px;
+  top: 18px;
+  left: 63px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #707070;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 1343px;
+  height: 764px;
+  top: 133px;
+  left: 128px;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+}
+
+.frame .overlap-3 {
+  position: absolute;
+  width: 681px;
+  height: 269px;
+  top: 20px;
+  left: 346px;
+}
+
+.frame .overlap-wrapper {
+  position: absolute;
+  width: 681px;
+  height: 269px;
+  top: 0;
+  left: 0;
+}
+
+.frame .overlap-4 {
+  position: relative;
+  width: 679px;
+  height: 269px;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  width: 679px;
+  height: 69px;
+  top: 200px;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #323232;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .icon-person {
+  position: absolute;
+  width: 200px;
+  height: 203px;
+  top: 0;
+  left: 226px;
+}
+
+.frame .overlap-group-wrapper {
+  height: 203px;
+}
+
+.frame .overlap-group-2 {
+  position: relative;
+  width: 200px;
+  height: 203px;
+}
+
+.frame .ellipse {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  background-color: #848484;
+  border-radius: 100px;
+}
+
+.frame .ellipse-2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 22px;
+  left: 51px;
+  background-color: #123563;
+  border-radius: 50px;
+}
+
+.frame .vector {
+  position: absolute;
+  width: 175px;
+  height: 86px;
+  top: 116px;
+  left: 13px;
+}
+
+.frame .icon-pencil {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 205px;
+  left: 227px;
+}
+
+.frame .group-2 {
+  position: absolute;
+  width: 563px;
+  height: 234px;
+  top: 322px;
+  left: 703px;
+}
+
+.frame .input-field {
+  display: flex;
+  flex-direction: column;
+  width: 563px;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frame .input-with-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--label-xs-bold-font-family);
+  font-weight: var(--label-xs-bold-font-weight);
+  color: var(--dark-neutral900);
+  font-size: var(--label-xs-bold-font-size);
+  letter-spacing: var(--label-xs-bold-letter-spacing);
+  line-height: var(--label-xs-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--label-xs-bold-font-style);
+}
+
+.frame .input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--alphawhite);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--neutral-200);
+  box-shadow: var(--elevation-light-xs);
+}
+
+.frame .content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.frame .text {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--paragraph-sm-default-font-family);
+  font-weight: var(--paragraph-sm-default-font-weight);
+  color: var(--light-neutral800);
+  font-size: var(--paragraph-sm-default-font-size);
+  letter-spacing: var(--paragraph-sm-default-letter-spacing);
+  line-height: var(--paragraph-sm-default-line-height);
+  font-style: var(--paragraph-sm-default-font-style);
+}
+
+.frame .input-field-2 {
+  width: 563px;
+  top: 156px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+
+.frame .input-field-3 {
+  width: 563px;
+  top: 78px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+
+.frame .admin-done {
+  left: 1123px;
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  top: 674px;
+}
+
+.frame .div-wrapper {
+  position: relative;
+  width: 143px;
+  height: 51px;
+  background-color: #0f3b74;
+  border-radius: 15px;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 143px;
+  height: 26px;
+  top: -15px;
+  left: 0;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 80px;
+  white-space: nowrap;
+}
+
+.frame .admin-back {
+  left: 955px;
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  top: 674px;
+}
+
+.frame .group-3 {
+  position: absolute;
+  width: 563px;
+  height: 312px;
+  top: 322px;
+  left: 69px;
+}
+
+.frame .input-field-4 {
+  width: 257px;
+  top: 234px;
+  left: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+
+.frame .input-field-5 {
+  width: 257px;
+  top: 234px;
+  left: 306px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}

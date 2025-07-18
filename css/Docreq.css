@@ -1,0 +1,231 @@
+body{
+  background-color: #ffffff;
+  margin: 0px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.frame .div {
+  width: 1600px;
+  height: 960px;
+  position: relative;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 1600px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.frame .icon-menu {
+  position: absolute;
+  width: 44px;
+  height: 32px;
+  top: 36px;
+  left: 1394px;
+}
+
+.frame .group {
+  position: absolute;
+  width: 306px;
+  height: 80px;
+  top: 12px;
+  left: 128px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  width: 296px;
+  height: 68px;
+  top: 6px;
+  left: 6px;
+}
+
+.frame .polygon {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 0;
+  left: 0;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 6px;
+  left: 30px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #0f3b74;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 233px;
+  height: 33px;
+  top: 18px;
+  left: 63px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #707070;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 1343px;
+  height: 764px;
+  top: 200px;
+  left: 128px;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+}
+
+.frame .overlap-3 {
+  position: absolute;
+  width: 709px;
+  height: 321px;
+  top: 84px;
+  left: 317px;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  width: 709px;
+  height: 69px;
+  top: 252px;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #323232;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .rectangle {
+  width: 581px;
+  height: 253px;
+  left: 64px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.frame .admin-button {
+  position: absolute;
+  width: 231px;
+  height: 51px;
+  top: 426px;
+  left: 697px;
+}
+
+.frame .overlap-group-2 {
+  position: relative;
+  width: 229px;
+  height: 51px;
+}
+
+.frame .rectangle-2 {
+  width: 219px;
+  height: 51px;
+  left: 6px;
+  background-color: #0f3b74;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 229px;
+  height: 26px;
+  top: -15px;
+  left: 0;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 80px;
+  white-space: nowrap;
+}
+
+.frame .overlap-wrapper {
+  position: absolute;
+  width: 231px;
+  height: 51px;
+  top: 426px;
+  left: 418px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  left: 1250px;
+}
+
+.dropbtn {
+  background-color: #0f3b74;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 10px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 200px; /* Set your desired width */
+  height: auto; /* Set your desired height */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  left: 0px; /* Set your desired left position */
+  top: 40px; /* Set your desired top position */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-align: left; 
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #0f3b74;
+}

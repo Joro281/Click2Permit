@@ -1,0 +1,175 @@
+body{
+  background-color: #d9d9d9;
+  margin: 0;
+
+}
+
+.frame {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #d9d9d9;
+  overflow-x: hidden;
+  width: 1600px;
+  height: 960px;
+  position: relative;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 1492px;
+  height: 643px;
+  top: 137px;
+  left: 120px;
+}
+
+.frame .overlap-group {
+  position: absolute;
+  width: 1487px;
+  height: 600px;
+  top: 43px;
+  left: 5px;
+}
+
+.frame .gg {
+  position: absolute;
+  width: 703px;
+  height: 600px;
+  top: 0;
+  left: 784px;
+  object-fit: cover;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 850px;
+  height: 136px;
+  top: 163px;
+  left: 55px;
+  text-shadow: 0px 4px 4px #00000040;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #182a40;
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: 80px;
+}
+
+.frame .p {
+  position: absolute;
+  width: 816px;
+  height: 69px;
+  top: 316px;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #323232;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 140px;
+  background-color: #d9d9d9;
+}
+
+.frame .user-button {
+  position: absolute;
+  width: 142px;
+  height: 39px;
+  top: 564px;
+  left: 400px;
+}
+
+.frame .admin-button {
+  position: absolute;
+  width: 142px;
+  height: 39px;
+  top: 564px;
+  left: 600px;
+}
+
+.frame .enter-the-portal-as {
+  position: absolute;
+  width: 295px;
+  height: 28px;
+  top: 573px;
+  left: 85px;
+}
+
+.frame .or {
+  position: absolute;
+  width: 26px;
+  height: 16px;
+  top: 578px;
+  left: 560px;
+}
+
+  .frame .supporting-text {
+    position: absolute;
+    width: 180px;
+    height: 14px;
+    top: 615px;
+    left: 415px;
+}
+.frame .sign-up-here {
+  position: absolute;
+  width: 82px;
+  height: 13px;
+  top: 616px;
+  left: 600px;
+  }
+
+.frame .group {
+  position: absolute;
+  width: 302px;
+  height: 80px;
+  top: 14px;
+  left: 84px;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 317px;
+  height: 44px;
+  top: 43px;
+  left: 1203px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #323232;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.frame .line {
+  top: 117px;
+  position: absolute;
+  width: 1600px;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.frame .img {
+  top: 869px;
+  position: absolute;
+  width: 1600px;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+}
+

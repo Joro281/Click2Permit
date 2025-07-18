@@ -1,0 +1,460 @@
+body{
+  background-color: #D9D9D9;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input.text {
+  border: none;
+  outline: none;
+  color: black; 
+}
+
+.frame {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .overlap-wrapper {
+  
+  width: 1600px;
+  height: 960px;
+}
+
+.frame .overlap {
+  position: relative;
+  width: 643px;
+  height: 826px;
+  top: 67px;
+  left: 478px;
+  border-radius: 16px;
+}
+
+.frame .div {
+  display: inline-flex;
+  flex-direction: column;
+  height: 826px;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--light-neutral900);
+  border-radius: 16px;
+  border: 1px solid;
+  border-color: var(--dark-neutral600);
+  box-shadow: 0px 4px 4px #00000040;
+}
+
+.frame .logo-heading-and {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  top: 100px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .logo {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--header-web-h3-font-family);
+  font-weight: var(--header-web-h3-font-weight);
+  color: #f5f5f5;
+  font-size: var(--header-web-h3-font-size);
+  letter-spacing: var(--header-web-h3-letter-spacing);
+  line-height: var(--header-web-h3-line-height);
+  white-space: nowrap;
+  font-style: var(--header-web-h3-font-style);
+}
+
+.frame .heading {
+  position: relative;
+  width: fit-content;
+  font-family: var(--header-web-h3-font-family);
+  font-weight: var(--header-web-h3-font-weight);
+  color: var(--dark-neutral900);
+  font-size: var(--header-web-h3-font-size);
+  letter-spacing: var(--header-web-h3-letter-spacing);
+  line-height: var(--header-web-h3-line-height);
+  white-space: nowrap;
+  font-style: var(--header-web-h3-font-style);
+}
+
+.frame .information-field {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .input-field {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  top: 150px;
+  flex: 0 0 auto;
+}
+.frame .input-field1 {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  top: -150px;
+  flex: 0 0 auto;
+}
+.frame .input-with-label0 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 225px;
+  top: -136px;
+  left: 325px;
+  flex: 0 0 auto;
+}
+.frame .input-with-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 225px;
+  top: -40px;
+  flex: 0 0 auto;
+}
+.frame .input-with-label1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 225px;
+  top: -150px;
+  flex: 0 0 auto;
+}
+.frame .input-with-label2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 225px;
+  top: -247px;
+  left: 325px;
+  flex: 0 0 auto;
+}
+.frame .input-with-label3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 225px;
+  top: -247px;
+  left: 325px;
+  flex: 0 0 auto;
+}
+.frame .input-with-label4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 225px;
+  top: -339px;
+  flex: 0 0 auto;
+}
+.frame .input-with-label6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  top: 20px;
+  flex: 0 0 auto;
+}
+.frame .input-with-label7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  top: -30px;
+  flex: 0 0 auto;
+}
+.frame .input-with-label8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  top: -345px;
+  flex: 0 0 auto;
+}
+
+.frame .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--label-xs-bold-font-family);
+  font-weight: var(--label-xs-bold-font-weight);
+  color: var(--dark-neutral900);
+  font-size: var(--label-xs-bold-font-size);
+  letter-spacing: var(--label-xs-bold-letter-spacing);
+  line-height: var(--label-xs-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--label-xs-bold-font-style);
+}
+
+.frame .input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--alphawhite);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--neutral-200);
+  box-shadow: var(--elevation-light-xs);
+}
+
+.frame .content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.frame .text {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--paragraph-sm-default-font-family);
+  font-weight: var(--paragraph-sm-default-font-weight);
+  color: var(--light-neutral800);
+  font-size: var(--paragraph-sm-default-font-size);
+  letter-spacing: var(--paragraph-sm-default-letter-spacing);
+  line-height: var(--paragraph-sm-default-line-height);
+  font-style: var(--paragraph-sm-default-font-style);
+}
+
+.frame .label-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--label-xs-bold-font-family);
+  font-weight: var(--label-xs-bold-font-weight);
+  color: var(--dark-neutral900);
+  font-size: var(--label-xs-bold-font-size);
+  letter-spacing: var(--label-xs-bold-letter-spacing);
+  line-height: var(--label-xs-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--label-xs-bold-font-style);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.frame .text-2 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--paragraph-sm-default-font-family);
+  font-weight: var(--paragraph-sm-default-font-weight);
+  color: var(--light-neutral800);
+  font-size: var(--paragraph-sm-default-font-size);
+  letter-spacing: var(--paragraph-sm-default-letter-spacing);
+  line-height: var(--paragraph-sm-default-line-height);
+  font-style: var(--paragraph-sm-default-font-style);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.frame .div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .submit-button {
+  display: flex;
+  width: 535px;
+  left: 0px;
+  bottom: 170px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 18px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #1b242f;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  box-shadow: var(--elevation-light-dropshadow-sm);
+}
+
+.frame .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--button-md-medium-font-family);
+  font-weight: var(--button-md-medium-font-weight);
+  color: var(--dark-neutral500);
+  font-size: var(--button-md-medium-font-size);
+  letter-spacing: var(--button-md-medium-letter-spacing);
+  line-height: var(--button-md-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--button-md-medium-font-style);
+}
+
+.frame .supporting-text {
+  position: relative;
+  width: 247px;
+  top: -170px;
+  font-family: var(--label-xs-default-font-family);
+  font-weight: var(--label-xs-default-font-weight);
+  color: transparent;
+  font-size: var(--label-xs-default-font-size);
+  letter-spacing: var(--label-xs-default-letter-spacing);
+  line-height: var(--label-xs-default-line-height);
+  font-style: var(--label-xs-default-font-style);
+}
+
+.frame .span {
+  color: #404040;
+  font-family: var(--label-xs-default-font-family);
+  font-style: var(--label-xs-default-font-style);
+  font-weight: var(--label-xs-default-font-weight);
+  letter-spacing: var(--label-xs-default-letter-spacing);
+  line-height: var(--label-xs-default-line-height);
+  font-size: var(--label-xs-default-font-size);
+}
+
+.frame .text-wrapper-2 {
+  color: #2f4cbc;
+  font-family: var(--label-xs-default-font-family);
+  font-style: var(--label-xs-default-font-style);
+  font-weight: var(--label-xs-default-font-weight);
+  letter-spacing: var(--label-xs-default-letter-spacing);
+  line-height: var(--label-xs-default-line-height);
+  font-size: var(--label-xs-default-font-size);
+}
+
+.frame .text-wrapper-3 {
+  color: #0f3b74;
+  font-family: var(--label-xs-default-font-family);
+  font-style: var(--label-xs-default-font-style);
+  font-weight: var(--label-xs-default-font-weight);
+  letter-spacing: var(--label-xs-default-letter-spacing);
+  line-height: var(--label-xs-default-line-height);
+  font-size: var(--label-xs-default-font-size);
+}
+
+.frame .overlap-group-wrapper {
+  position: absolute;
+  width: 82px;
+  height: 80px;
+  top: -30px;
+  left: 230px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  width: 68px;
+  height: 68px;
+  top: -30px;
+  left: 20px;
+  background-image: url(./img/polygon-3.svg);
+  background-size: 100% 100%;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 7px;
+  left: 7px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #0f3b74;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.frame .input-field-6 {
+  width: 230px;
+  top: -70px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+
+.frame .input-field-7 {
+  width: 230px;
+  top: -70px;
+  left: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+.frame .input-field-8 {
+  width: 230px;
+  top: 80px;
+  left: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}

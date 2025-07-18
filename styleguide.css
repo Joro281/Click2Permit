@@ -1,0 +1,9 @@
+:root {
+  --black-tints60: rgba(0, 26, 12, 0.6);
+  --label-md-default-font-family: "PlusJakarta Sans-Regular", Helvetica;
+  --label-md-default-font-weight: 400;
+  --label-md-default-font-size: 20px;
+  --label-md-default-letter-spacing: -0.2px;
+  --label-md-default-line-height: 20px;
+  --label-md-default-font-style: normal;
+}

@@ -1,0 +1,532 @@
+body{
+  background-color: #cbcbcb;
+  margin: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.frame {
+  background-color: #cbcbcb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #cbcbcb;
+  width: 1600px;
+  height: 960px;
+  position: relative;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 1600px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+
+.frame .group {
+  position: absolute;
+  width: 306px;
+  height: 80px;
+  top: 12px;
+  left: 128px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  width: 296px;
+  height: 68px;
+  top: 6px;
+  left: 6px;
+}
+
+.frame .polygon {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 0;
+  left: 0;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 6px;
+  left: 30px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #0f3b74;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 233px;
+  height: 33px;
+  top: 18px;
+  left: 63px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #707070;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 1434px;
+  height: 764px;
+  top: 133px;
+  left: 37px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 1343px;
+  height: 764px;
+  top: 0;
+  left: 91px;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+}
+
+.frame .img {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 38px;
+  left: 202px;
+  border-radius: 50%;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+.frame .bell {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 60px;
+  left: 1300px;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  width: 709px;
+  height: 69px;
+  top: 40px;
+  left: 0;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #323232;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .admin-next {
+  left: 400px;
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  top: 400px;
+}
+
+.frame .div-wrapper {
+  position: relative;
+  width: 143px;
+  height: 51px;
+  background-color: #0f3b74;
+  border-radius: 15px;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 143px;
+  height: 26px;
+  top: -15px;
+  left: 0;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 80px;
+  white-space: nowrap;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.frame .admin-edit {
+  left: 200px;
+  position: absolute;
+  width: 145px;
+  height: 51px;
+  top: 400px;
+}
+
+.frame .overlap-3 {
+  position: relative;
+  width: 143px;
+  height: 51px;
+  background-image: url(./img/rectangle-7.png);
+  background-size: 100% 100%;
+}
+
+.frame .group-2 {
+  position: absolute;
+  width: 563px;
+  height: 312px;
+  top: 238px;
+  left: 171px;
+}
+
+.frame .input-field {
+  display: flex;
+  flex-direction: column;
+  width: 563px;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+  top: 78px;
+  left: 0;
+}
+
+.frame .input-with-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--label-xs-bold-font-family);
+  font-weight: var(--label-xs-bold-font-weight);
+  color: var(--dark-neutral900);
+  font-size: var(--label-xs-bold-font-size);
+  letter-spacing: var(--label-xs-bold-letter-spacing);
+  line-height: var(--label-xs-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--label-xs-bold-font-style);
+}
+
+.frame .input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--alphawhite);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--neutral-200);
+  box-shadow: var(--elevation-light-xs);
+}
+
+.frame .content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.frame .text {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--paragraph-sm-default-font-family);
+  font-weight: var(--paragraph-sm-default-font-weight);
+  color: var(--light-neutral800);
+  font-size: var(--paragraph-sm-default-font-size);
+  letter-spacing: var(--paragraph-sm-default-letter-spacing);
+  line-height: var(--paragraph-sm-default-line-height);
+  font-style: var(--paragraph-sm-default-font-style);
+}
+
+.frame .input-field-2 {
+  width: 563px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+.frame .input-field-3 {
+  width: 563px;
+  top: 156px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+
+.frame .input-field-4 {
+  width: 257px;
+  top: 234px;
+  left: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+
+.frame .input-field-5 {
+  width: 257px;
+  top: 234px;
+  left: 306px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+
+
+.frame .input-field-6 {
+  width: 563px;
+  top: 155px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+.frame .input-field-7 {
+  width: 563px;
+  top: 234px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: absolute;
+}
+
+
+.frame .group-3 {
+  position: absolute;
+  width: 563px;
+  height: 156px;
+  top: 238px;
+  left: 805px;
+}
+
+
+.frame .text-wrapper-5 {
+  right: 870px;
+  position: absolute;
+  width: 331px;
+  height: 69px;
+  bottom: 150px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #323232;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .text-wrapper-6 {
+  right: 235px;
+  position: absolute;
+  width: 331px;
+  height: 69px;
+  bottom: 150px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #323232;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.frame .icon-account-logout {
+  position: absolute;
+  width: 118px;
+  height: 33px;
+  top: 38px;
+  left: 1241px;
+}
+
+.frame .text-wrapper-7 {
+  position: absolute;
+  width: 79px;
+  height: 33px;
+  top: 0;
+  left: 37px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #707070;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .vector {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  top: 3px;
+  left: 0;
+}
+.input input {
+  /* Add any necessary styles for the input fields */
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+/* Example styles to make the input fields look like traditional input boxes */
+.input input[type="text"],
+.input input[type="password"],
+.input select {
+
+  outline: none;
+  border: none;
+}
+
+.error-message {
+  color: red; /* Color for error messages */
+}
+
+.success-message {
+  color: green; /* Color for success messages */
+}
+
+/* Individual styling for each message */
+#error_message_fill_inputs {
+  margin-left: 250px; /* Adjust the left margin for fillInputsError */
+  position: absolute;
+  top: 350px; /* Adjust the top position as needed */
+  right: 125px; /* Adjust the left position as needed */
+  z-index: 9999;
+  white-space: nowrap;
+}
+
+#error_message_passwords_do_not_match {
+  margin-left: 250px; /* Adjust the left margin for fillInputsError */
+  position: absolute;
+  top: 350px; /* Adjust the top position as needed */
+  right: 127px; /* Adjust the left position as needed */
+  z-index: 9999;
+  white-space: nowrap;
+}
+
+#success_message {
+  margin-left: 250px; /* Adjust the left margin for fillInputsError */
+  position: absolute;
+  top: 350px; /* Adjust the top position as needed */
+  right: 127px; /* Adjust the left position as needed */
+  z-index: 9999;
+  white-space: nowrap;
+}
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    left: 1250px;
+  }
+
+  .dropbtn {
+    background-color: #0f3b74;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 10px;
+
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200px; /* Set your desired width */
+    height: auto; /* Set your desired height */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 0px; /* Set your desired left position */
+    top: 40px; /* Set your desired top position */
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    text-align: left; 
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #0f3b74;
+  }  
+  
+  .notification {
+    display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 9999;
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.success-notification {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.error-notification {
+    background-color: #f44336;
+    color: white;
+}

@@ -1,0 +1,252 @@
+body{
+  background-color: #cbcbcb;
+  overflow-x: hidden;
+  margin: 0;
+}
+.frame {
+  background-color: #cbcbcb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  background-color: #cbcbcb;
+  width: 1600px;
+  height: 960px;
+  position: relative;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 1600px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.frame .icon-menu {
+  position: absolute;
+  width: 44px;
+  height: 32px;
+  top: 36px;
+  left: 1394px;
+}
+
+.frame .group {
+  position: absolute;
+  width: 306px;
+  height: 80px;
+  top: 12px;
+  left: 128px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  width: 296px;
+  height: 68px;
+  top: 6px;
+  left: 6px;
+}
+
+.frame .polygon {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 0;
+  left: 0;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 6px;
+  left: 30px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #0f3b74;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 233px;
+  height: 33px;
+  top: 18px;
+  left: 63px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #707070;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 1343px;
+  height: 764px;
+  top: 133px;
+  left: 128px;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+}
+
+.frame .p {
+  position: absolute;
+  width: 419px;
+  height: 33px;
+  top: 357px;
+  left: 462px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #707070;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .user-button {
+  position: absolute;
+  width: 144px;
+  height: 39px;
+  top: 577px;
+  left: 514px;
+}
+
+.frame .overlap-3 {
+  position: relative;
+  width: 142px;
+  height: 39px;
+}
+
+.frame .rectangle {
+  position: absolute;
+  width: 136px;
+  height: 39px;
+  top: 0;
+  left: 4px;
+  background-color: #0f3b74;
+  border-radius: 15px;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  width: 142px;
+  height: 20px;
+  top: -22px;
+  left: 0;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 80px;
+  white-space: nowrap;
+}
+
+.frame .admin-button {
+  position: absolute;
+  width: 144px;
+  height: 39px;
+  top: 577px;
+  left: 718px;
+}
+
+.frame .text-wrapper-4 {
+  position: absolute;
+  width: 428px;
+  height: 47px;
+  top: 490px;
+  left: 470px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #323232;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-5 {
+  position: absolute;
+  width: 58px;
+  height: 44px;
+  top: 574px;
+  left: 659px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #323232;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.frame .supporting-text {
+  position: absolute;
+  width: 339px;
+  top: 621px;
+  left: 518px;
+  font-family: var(--label-xs-default-font-family);
+  font-weight: var(--label-xs-default-font-weight);
+  color: transparent;
+  font-size: var(--label-xs-default-font-size);
+  text-align: center;
+  letter-spacing: var(--label-xs-default-letter-spacing);
+  line-height: var(--label-xs-default-line-height);
+  font-style: var(--label-xs-default-font-style);
+}
+
+
+.frame .span {
+  color: #404040;
+  font-family: var(--label-xs-default-font-family);
+  font-style: var(--label-xs-default-font-style);
+  font-weight: var(--label-xs-default-font-weight);
+  letter-spacing: var(--label-xs-default-letter-spacing);
+  line-height: var(--label-xs-default-line-height);
+  font-size: var(--label-xs-default-font-size);
+}
+
+.frame .text-wrapper-6 {
+  color: #2f4cbc;
+  font-family: var(--label-xs-default-font-family);
+  font-style: var(--label-xs-default-font-style);
+  font-weight: var(--label-xs-default-font-weight);
+  letter-spacing: var(--label-xs-default-letter-spacing);
+  line-height: var(--label-xs-default-line-height);
+  font-size: var(--label-xs-default-font-size);
+}
+
+.frame .text-wrapper-7 {
+  color: #123563;
+  font-family: var(--label-xs-default-font-family);
+  font-style: var(--label-xs-default-font-style);
+  font-weight: var(--label-xs-default-font-weight);
+  letter-spacing: var(--label-xs-default-letter-spacing);
+  line-height: var(--label-xs-default-line-height);
+  font-size: var(--label-xs-default-font-size);
+}
+
+.frame .img {
+  position: absolute;
+  width: 581px;
+  height: 253px;
+  top: 71px;
+  left: 383px;
+  object-fit: cover;
+}
